@@ -16,5 +16,3 @@ The `css` folder contains the stylesheet, `js` stores JavaScript files for inter
 - **GitHub Pages / Vercel** – Used for deployment and static hosting
 
 ---
-```bash
-git clone https://github.com/wavlngth00/Apply-Job-Page.git
