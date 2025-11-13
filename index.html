@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Applicant Overview</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header>
+      <h1></h1>
+      <img src="img/img2.jpg" alt="User Avatar" class="avatar" />
+    </header>
+
+    <div class="container">
+      <div class="job-list">
+        <div class="job-card active" onclick="showDetails(0)">
+          <div class="job-header">
+            <img src="img/img5.jpg" alt="Rakamin Logo" class="logo" />
+            <div class="job-info-text">
+              <h3>UX Designer</h3>
+              <p>Rakamin</p>
+            </div>
+          </div>
+          <div class="job-info">
+            <i data-feather="map-pin"></i> Jakarta Selatan
+          </div>
+          <div class="salary">
+            <i data-feather="dollar-sign"></i> Rp7.000.000 - Rp15.000.000
+          </div>
+        </div>
+
+        <div class="job-card" onclick="showDetails(1)">
+          <div class="job-header">
+            <img src="img/img5.jpg" alt="Rakamin Logo" class="logo" />
+            <div class="job-info-text">
+              <h3>Frontend Engineer</h3>
+              <p>Rakamin</p>
+            </div>
+          </div>
+          <div class="job-info">
+            <i data-feather="map-pin"></i> Jakarta Selatan
+          </div>
+          <div class="salary">
+            <i data-feather="dollar-sign"></i> Rp10.000.000 - Rp20.000.000
+          </div>
+        </div>
+      </div>
+
+      <div class="job-details" id="job-details">
+        <div class="job-details-card">
+          <div class="details-header">
+            <div class="details-left">
+              <img src="img/img5.jpg" alt="Rakamin Logo" class="details-logo" />
+              <div class="details-text">
+                <span class="status">Full-Time</span>
+                <h2>UX Designer</h2>
+                <p class="company-name">Rakamin</p>
+              </div>
+            </div>
+            <button class="apply-btn">Apply</button>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="description-section">
+            <ul>
+              <li>
+                Develop, test, and maintain responsive, high-performance web
+                applications using modern front-end technologies.
+              </li>
+              <li>
+                Collaborate with UI/UX designers to translate wireframes and
+                prototypes into functional code.
+              </li>
+              <li>
+                Integrate front-end components with APIs and backend services.
+              </li>
+              <li>
+                Ensure cross-browser compatibility and optimize applications for
+                maximum speed and scalability.
+              </li>
+              <li>
+                Write clean, reusable, and maintainable code following best
+                practices and coding standards.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
