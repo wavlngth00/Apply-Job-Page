@@ -1,25 +1,20 @@
 # Apply Job Page
 
 ## 📝 Project Overview
-**Apply Job Page** adalah halaman web sederhana untuk proses melamar pekerjaan secara online.  
-Pengguna dapat melihat daftar lowongan yang tersedia di halaman utama (`index.html`), kemudian mengisi form lamaran pada halaman `applyform.html`. Setelah form berhasil dikirim, pengguna akan diarahkan ke halaman `success.html` sebagai konfirmasi.
+**Apply Job Page** is a simple and clean web page designed for online job applications.  
+Users can view available job listings on the main page (`index.html`), fill out the application form on the `applyform.html` page, and after submission, they are redirected to `success.html` as a confirmation page.
 
-Struktur project ini dibuat agar mudah dipahami dan dikembangkan lebih lanjut. Folder `css` berisi stylesheet, `js` berisi file JavaScript untuk interaktivitas, dan `img` menyimpan aset gambar.
+The project structure is organized for easy understanding and future development.  
+The `css` folder contains the stylesheet, `js` stores JavaScript files for interactivity, and `img` holds all image assets.
 
 ---
 
 ## ⚙️ Tech Stack Used
-- **HTML5** – Struktur utama halaman web  
-- **CSS3** – Styling dan layout halaman  
-- **JavaScript** – Menangani interaksi sederhana pada halaman  
-- **GitHub Pages / Vercel** – Untuk deployment dan hosting statis
+- **HTML5** – Main structure of the webpage  
+- **CSS3** – Styling and layout  
+- **JavaScript** – Handles basic interactivity on the page  
+- **GitHub Pages / Vercel** – Used for deployment and static hosting
 
 ---
-
-## 🚀 How to Run Locally
-
-Ikuti langkah-langkah berikut untuk menjalankan project di komputer kamu:
-
-1. **Clone repository**
-   ```bash
-   git clone https://github.com/wavlngth00/Apply-Job-Page.git
+```bash
+git clone https://github.com/wavlngth00/Apply-Job-Page.git
